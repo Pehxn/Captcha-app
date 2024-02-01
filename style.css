@@ -37,7 +37,7 @@ body {
 .captcha{
     display: flex;
     align-items: center;
-    mix-blend-mode: 20px;
+    margin-bottom: 20px;
     justify-content: space-between;
     gap: 10px;
     width: 100%;
@@ -60,3 +60,22 @@ canvas{
     border-radius: 6px;
 }
 
+.user {
+    width: 100%;
+}
+
+.user input,
+.user button {
+    margin-bottom: 14px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #1939ba;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: #5b86e5;
+}
